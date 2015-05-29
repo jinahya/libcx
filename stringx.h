@@ -13,6 +13,7 @@ extern "C" {
 #endif
 
     char * strcpyx(const char * src);
+    char * strncpyx(const char * src, size_t n);
 
 
 #ifdef	__cplusplus
